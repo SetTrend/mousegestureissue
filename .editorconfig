@@ -1,0 +1,14 @@
+[*]
+#use hard tabs for indentation
+indent_style = tab
+indent_size = 2
+
+#sort System.* using directives alphabetically, and place them before other usings
+dotnet_sort_system_directives_first = true
+
+[*.cs]
+csharp_prefer_braces = false
+
+dotnet_diagnostic.IDE0021.severity = none
+dotnet_diagnostic.IDE0058.severity = none
+dotnet_diagnostic.CA1051.severity = none
